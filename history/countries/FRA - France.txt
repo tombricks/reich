@@ -96,7 +96,6 @@ if = {
 }
 1939.1.1 = {
 
-	add_political_power = 899
 
 	#adding ministers
 	add_ideas = {
@@ -126,9 +125,6 @@ if = {
 	complete_national_focus = FRA_go_with_britain
 	complete_national_focus = FRA_devalue_the_franc
 	complete_national_focus = FRA_invest_in_the_metropole
-
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
 
 	oob = "FRA_1939"
 	if = {

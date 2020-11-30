@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "1962"
 		desc = "NEW_DAWN_LOC"
-		date = 1962.8.14.12
+		date = 1952.1.1.12
 		picture = "GFX_new_dawn_bookmark"
 		default_country = "GER"
 	

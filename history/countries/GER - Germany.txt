@@ -139,13 +139,6 @@ create_import = {
 		target = SLO
 		autonomous_state = autonomy_puppet
 	}
-	
-	give_military_access = SLO
-	create_wargoal = {
-		type = take_state_focus
-		target = POL
-		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
-	}
 
 #Trade
 	create_import = {
@@ -1227,6 +1220,10 @@ create_equipment_variant = {
 	puppet = BRI
 	puppet = RKS
 	puppet = RKW
+	puppet = CZE
+	puppet = HOL
+	puppet = POL
+	puppet = NFR
 	add_to_faction = UKR
 	add_to_faction = BLR
 	add_to_faction = RKU
