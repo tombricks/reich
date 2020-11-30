@@ -48,11 +48,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaroslav Krejčí"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Phillip Bouhler"
+	desc = "POLITICS_PHILLIP_BOUHLER_DESC"
+	picture = "Portrait_Czech_Phillip_Bouhler.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism
 	traits = {
 		#
 	}

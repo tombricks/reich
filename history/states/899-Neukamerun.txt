@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = RKM
 		add_core_of = CAR
 		buildings = {
 			infrastructure = 2

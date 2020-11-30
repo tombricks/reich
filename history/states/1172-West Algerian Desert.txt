@@ -5,9 +5,8 @@ state={
 
 
 	history={
-		owner = RKW
+		owner = FRA
 		add_core_of = ALG
-		add_core_of = RKW
 		buildings = {
 			infrastructure = 0
 
