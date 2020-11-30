@@ -54,40 +54,34 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = national_socialism
-	last_election = "1960.1.1"
+	ruling_party = fascism
+	last_election = "1944.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	democratic = 0
-	national_socialism = 90
+	democratic = 10
+	fascism = 90
 	communism = 0
-	neutrality = 10
+	neutrality = 0
 }
 
 create_country_leader = {
-	name = "Martin Bormann"
-	desc = "super"
-	picture = "gfx/leaders/RKU/Portrait_Martin_Bormann.dds"
-	ideology = national_socialism
+	name = "William Dudley Pelley"
+	desc = ""
+	picture = "gfx/leaders/USA/Portrait_William_Dudley_Pelley.tga"
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
 }
 
-1962.1.1 = {
-	set_politics = {
-		ruling_party = national_socialism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 0
-		national_socialism = 90
-		communism = 0
-		neutrality = 10
+create_country_leader = {
+	name = "Martin Bormann"
+	desc = ""
+	picture = "gfx/leaders/USA/Portrait_Martin_Bormann.tga"
+	ideology = national_socialism
+	traits = {
+		#
 	}
 }

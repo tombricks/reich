@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = IDI
+		owner = USA
 		buildings = {
 			infrastructure = 4
 		}

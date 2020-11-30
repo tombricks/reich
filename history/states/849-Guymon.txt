@@ -3,13 +3,14 @@ state={
 	name="STATE_849"
 
 	history={
-		owner = OKO
+		owner = TXT
 		buildings = {
 			infrastructure = 4
 
 		}
 		add_core_of = USA
 		add_core_of = OKO
+		add_core_of = TXT
 
 	}
 

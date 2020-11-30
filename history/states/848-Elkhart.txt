@@ -3,13 +3,14 @@ state={
 	name="STATE_848"
 
 	history={
-		owner = KSK
+		owner = TXT
 		buildings = {
 			infrastructure = 4
 
 		}
 		add_core_of = USA
 		add_core_of = KSK
+		add_core_of = TXT
 	}
 
 	provinces={

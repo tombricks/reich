@@ -1219,7 +1219,6 @@ create_equipment_variant = {
 	create_faction = "Germania Vertrag"
 	puppet = BLR
 	puppet = UKR
-	puppet = RKU
 	puppet = BRG
 	puppet = ICE
 	puppet = DEN

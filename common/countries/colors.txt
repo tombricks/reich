@@ -716,8 +716,8 @@ BRG = {
 	color_ui = rgb { 62 47 64 }
 }
 RKU = {
-	color = rgb { 61 61 61 }
-	color_ui = rgb { 61 61 61 }
+	color = rgb { 52 67 89 }
+	color_ui = rgb { 52 67 89 }
 }
 RKS = {
 	color = rgb { 61 61 61 }

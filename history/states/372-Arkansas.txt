@@ -12,13 +12,13 @@ state={
 
 
 	history={
-		owner = RKU
+		owner = TXT
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
 		add_core_of = USA
-		add_core_of = RKU
+		add_core_of = TXT
 		victory_points = {
 			12489 1 
 		}

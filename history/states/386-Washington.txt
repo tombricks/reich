@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = WAW
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1

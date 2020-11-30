@@ -253,3 +253,4 @@ ideologies = {
 		}
 		ai_fascist = yes # uses the democratic AI behaviour
 	}
+}

@@ -7,14 +7,14 @@ state={
 	}
 
 	history={
-		owner = RKU
+		owner = NDN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 
 		}
 		add_core_of = USA
-		add_core_of = RKU
+		add_core_of = NDN
 		victory_points = {
 			1866 5 
 		}

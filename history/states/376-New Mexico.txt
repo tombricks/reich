@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = NMN
+		owner = TXT
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -16,6 +16,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = NMN
+		add_core_of = TXT
 		victory_points = {
 			4975 3 
 		}
