@@ -1,0 +1,27 @@
+state={
+	id=1171
+	name="STATE_1171"
+	manpower = 82000
+	
+	state_category = rural
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = CZE
+		add_core_of = GER
+		1939.3.14 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		13356 13357 
+	}
+}

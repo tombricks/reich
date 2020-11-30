@@ -1,0 +1,27 @@
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = BRG
+		victory_points = {
+			6666 3
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SWI
+		add_core_of = BRG
+
+	}
+
+	provinces={
+		3612 6666 9622 11590 13124 
+	}
+	manpower=800554
+	buildings_max_level_factor=1.000
+	state_category=town
+}
