@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	GER_RKU_friendship = {
+		value = 75
+	}
+}

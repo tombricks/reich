@@ -166,6 +166,15 @@ add_to_faction = CAC
 add_to_faction = SIA
 add_to_tech_sharing_group = JAP_research_team
 
+add_opinion_modifier = {
+	target = CAC
+	modifier = GER_RKU_friendship
+}
+reverse_add_opinion_modifier = {
+	target = CAC
+	modifier = GER_RKU_friendship
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

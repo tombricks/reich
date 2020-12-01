@@ -426,3 +426,9 @@ create_equipment_variant = {
 	#	}
 	#}
 }
+
+add_ai_strategy = {
+    type = alliance
+    id = GER
+    value = 200
+}
