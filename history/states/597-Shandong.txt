@@ -4,7 +4,7 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = JAP
+		owner = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -20,10 +20,6 @@ state={
 				bunker = 1
 
 			}
-
-		}
-		1938.10.25 = {
-			controller = JAP
 
 		}
 

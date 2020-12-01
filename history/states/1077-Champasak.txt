@@ -3,7 +3,8 @@ state={
 	name="STATE_1077"
 
 	history={
-		owner = LAO
+		owner = SIA
+		add_core_of = SIA
 		add_core_of = LAO
 		buildings = {
 			infrastructure = 1

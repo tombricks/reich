@@ -145,8 +145,6 @@ set_convoys = 40
 		}
 	}
 	
-	remove_opinion_modifier = { target = PRC modifier = hostile_status }
-	
 	oob = "CHI_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
