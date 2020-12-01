@@ -77,7 +77,6 @@
  ITA_neutrality_party:0 "Partito Nazionale Monarchico"
  JAP_communism_party:0 "Nihon Kyosan-to"
  JAP_democratic_party:0 "Rikken Minseito"
- JAP_fascism_party:0 "Taisei Yokusankai"
  JAP_neutrality_party_kodoha_long:0 "Kodoha Faction"
  JAP_neutrality_party_kodoha:0 "Kodoha Faction"
  USA_communism_party:0 "Communist Party USA"
@@ -435,8 +434,6 @@
  PAN_democratic_party_long:0 "Partido Liberal Doctrinario"
  PAN_communism_party:0 "PPP"
  PAN_communism_party_long:0 "Partido del Pueblo de Panamá"
- PHI_fascism_party:0 "Ganap"
- PHI_fascism_party_long:0 "Ganap Party"
  PHI_democratic_party:0 "NP"
  PHI_democratic_party_long:0 "Partido Nacionalista"
  PHI_communism_party:0 "PKP"
@@ -503,7 +500,6 @@
  ISR_democratic_party:0 "Mapai"
  ISR_fascism_party:0 "Helpam"
  ISR_neutrality_party:0 "Central Council"
- VIN_fascism_party:0 "Vietnamese Restoration League" #or Reformation Society   
  VIN_democratic_party:0 "Can Lao Party" #formed in early 50s
  VIN_communism_party:0 "Communist Party of Vietnam" #Viet Minh was more important in early years
  VIN_neutrality_party:0 "Viêt Nam Quoc Dân Đang"
@@ -566,8 +562,6 @@
  GXC_communism_party_long:0 "Communist Party of China"
  YUN_communism_party:0 "CPC"
  YUN_communism_party_long:0 "Communist Party of China"
- MAN_fascism_party:0 "MX"
- MAN_fascism_party_long:0 "Manzhōuguó Xiéhehuì"
  TAH_fascism_party:0 "PaO"
  TAH_fascism_party_long:0 "Pouvanaa a Oopa"
  TAH_neutrality_party:0 "Mairau"

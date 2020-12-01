@@ -34,7 +34,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,7 +54,18 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Bao_Dai.tga"
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = national_socialism 
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Bảo Đại" 
+	desc = ""
+	picture = "Portrait_Bao_Dai.tga"
+	expire = "1953.3.1"
+	ideology = nazism 
 	traits = {
 		
 	}
