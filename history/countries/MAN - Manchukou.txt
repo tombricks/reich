@@ -52,9 +52,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Aisin Gioro Puyi"
 	
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	picture = "Portrait_Aisin_Gioro_Puyi.tga"
 	expire = "1960.1.1"
-	ideology = rexism
+	ideology = fascism_ideology
 	traits = {
 		warrior_code
 	}

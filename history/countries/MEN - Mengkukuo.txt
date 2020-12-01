@@ -52,9 +52,9 @@ add_ideas = {
 create_country_leader = {
 	name = "Prince Demchugdongrub"
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "GFX_portrait_men_demchugdongrub"
+	picture = "Portrait_Demchugdongrub.tga"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = fascism_ideology
 	traits = {
 		spirit_of_genghis
 	}

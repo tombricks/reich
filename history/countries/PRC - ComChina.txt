@@ -53,7 +53,7 @@ add_opinion_modifier = { target = CHI modifier = hostile_status }
 create_country_leader = {
 	name = "Wang Jingwei"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
-	picture = "GFX_portrait_chi_wang_jingwei"
+	picture = "Portrait_Wang_Jingwei.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
