@@ -126,49 +126,36 @@ set_technology = {
 	}
 }
 
-
-
-
 set_convoys = 100
 set_stability = 0.75
 
 set_politics = {
-
-	ruling_party = democratic
-	last_election = "1932.11.8"
+	ruling_party = neutrality
+	last_election = "1936.11.3"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
-add_ideas = {
-
-}
-set_popularities = {
-	democratic = 76
-	communism = 7
-	fascism = 17
-}
-1939.1.1 = {
-	set_stability = 0.75
-
-	set_politics = {
-
-		ruling_party = neutrality
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
+	
 set_popularities = {
 	democratic = 20
 	fascism = 10
 	neutrality = 70
 }
 create_country_leader = {
+	name = "Douglas MacArthur"
+	desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	picture = "gfx/leaders/USA/Portrait_Douglas_MacArthur.tga"
+	expire = "1995.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+create_country_leader = {
 	name = "Price Daniel"
 	desc = "POLITICS_PRICE_DANIEL_DESC"
 	picture = "Portrait_TXT_Price_Daniel.dds"
 	expire = "1995.1.1"
-	ideology = neutrality
+	ideology = liberalism
 	traits = {
 	}
 }
