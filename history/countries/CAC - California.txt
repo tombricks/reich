@@ -133,12 +133,10 @@ set_convoys = 100
 set_stability = 0.6
 
 set_politics = {
-
-
 	ruling_party = democratic
-	last_election = "1932.11.8"
+	last_election = "1951.11.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 add_ideas = {
 	CAC_aloyaldemocraticarmy
@@ -153,15 +151,25 @@ set_popularities = {
 	fascism = 10
 }
 create_country_leader = {
-	name = "Frank Merriam"
-	desc = "POLITICS_FRANK_MERRIAM_DESC"
-	picture = "Portrait_CAC_Frank_Merriam.dds"
+	name = "Dwight D. Eisenhower"
+	desc = "POLITICS_DWIGHT_D_EISENHOWER_DESC"
+	picture = "gfx/leaders/USA/Portrait_Dwight_D_Eisenhower.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		foundingfatherofcalifornia
 	}
 }
+
+#create_country_leader = {
+#	name = "Frank Merriam"
+#	desc = "POLITICS_FRANK_MERRIAM_DESC"
+#	picture = "Portrait_CAC_Frank_Merriam.dds"
+#	expire = "1965.1.1"
+#	ideology = liberalism
+#	traits = {
+#		foundingfatherofcalifornia
+#	}
+#}
 
 create_country_leader = {
 	name = "Upton Sinclair"
