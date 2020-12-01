@@ -317,8 +317,8 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+	color = rgb { 173 87 70 }
+	color_ui = rgb { 173 87 70 }
 }
 
 GXC = {
@@ -407,8 +407,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+	color = rgb { 130  123  50 }
+	color_ui = rgb { 130  123  50 }
 }
 
 CAM = {
