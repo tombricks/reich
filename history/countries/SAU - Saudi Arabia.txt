@@ -94,5 +94,3 @@ add_to_faction = IRQ
 add_to_faction = JOR
 add_to_faction = PAL
 add_to_faction = LEB
-
-}
