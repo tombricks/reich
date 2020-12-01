@@ -1,7 +1,7 @@
 #reload countrycolors
 
 GER = { 
-	color = rgb { 54 54 54 }
+	color = rgb { 64 64 64 }
 	color_ui = rgb { 54 54 54 }
 }
 ENG = {
@@ -27,7 +27,7 @@ LUX = {
 BEL = { color 	 = rgb { 193 171 8  }
 		color_ui = rgb { 251 222 10 }
 	  }
-HOL = {	color = rgb { 203 138 74 }
+HOL = {	color = rgb { 77 77 77 }
 		color_ui = rgb { 255 179 96 }
 }
 CZE = {	color = rgb { 54 167 156 }
@@ -58,11 +58,11 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 67 84 73 }
+	color = rgb { 64 97 73 }
 	color_ui = rgb { 67 84 73 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
+	color = rgb { 189 174 77 }
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -86,7 +86,7 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
+	color = rgb { 77 77 77 }
 	color_ui = rgb { 144 92 92 }
 }
 DEN = {
@@ -94,7 +94,7 @@ DEN = {
 	color_ui = rgb { 199 151 121 }
 }
 BUL = {
-	color = rgb { 70 87 77 }
+	color = rgb { 84 97 85 }
 	color_ui = rgb { 210 147 217 }
 }
 POR = {
@@ -312,13 +312,13 @@ RAJ = {
 }
 
 CRO = {
-	color = rgb { 130 90 120 }
+	color = rgb { 133 80 128 }
 	color_ui = rgb { 230 255 122 }
 }
 
 PRC = {
-	color = rgb { 173 87 70 }
-	color_ui = rgb { 173 87 70 }
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
 }
 
 GXC = {
@@ -377,7 +377,7 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 61 61 61 }
+	color = rgb { 77 77 77 }
 	color_ui = rgb { 61 61 61 }	
 }
 
@@ -407,8 +407,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 130  123  50 }
-	color_ui = rgb { 130  123  50 }
+	color = rgb { 230  223  50 }
+	color_ui = rgb { 230  223  50 }
 }
 
 CAM = {
@@ -427,7 +427,7 @@ MNT = {
 }
 
 BLR = {
-	color = rgb { 61 61 61 }
+	color = rgb { 77 77 77 }
 	color_ui = rgb { 61 61 61 }
 }
 MAN = {
@@ -712,7 +712,7 @@ SHL = {
 	color_ui = rgb { 51 51 255 }
 }
 BRG = {
-	color = rgb { 62 47 64 }
+	color = rgb { 74 65 77 }
 	color_ui = rgb { 62 47 64 }
 }
 RKU = {
@@ -720,11 +720,19 @@ RKU = {
 	color_ui = rgb { 52 67 89 }
 }
 RKS = {
-	color = rgb { 61 61 61 }
+	color = rgb { 77 77 77 }
 	color_ui = rgb { 61 61 61 }
 }
 RKW = {
-	color = rgb { 61 61 61 }
+	color = rgb { 77 77 77 }
+	color_ui = rgb { 61 61 61 }
+}
+RKM = {
+	color = rgb { 77 77 77 }
+	color_ui = rgb { 61 61 61 }
+}
+NFR = {
+	color = rgb { 77 77 77 }
 	color_ui = rgb { 61 61 61 }
 }
 AZA = {
