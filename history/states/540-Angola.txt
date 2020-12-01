@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = RKM
+		owner = POR
 		buildings = {
 			infrastructure = 1
 			8248 = {
