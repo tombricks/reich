@@ -46,3 +46,8 @@
  INS_japanese_fascism_ADJ:0 "Indonesian"
  INS_fascism_party:0 "FNPAI"
  INS_fascism_party_long:0 "Front Nasional dan Pan-Asiais Indonesia"
+ 
+ WAR_NAME_CHI_PRC:0 "Third Chinese Civil War"
+ WAR_NAME_PRC_CHI:0 "Third Chinese Civil War"
+ WAR_NAME_SOV_JAP:0 "Third Russo-Japanese War"
+ WAR_NAME_JAP_SOV:0 "Third Russo-Japanese War"
