@@ -65,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_MIKLOS_HORTHY_DESC"
 	picture = "Portrait_Miklos_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = autocracy
 }
 create_country_leader = {
 	name = "Miklós Horthy"
@@ -80,7 +80,7 @@ create_country_leader = {
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -91,7 +91,7 @@ create_country_leader = {
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_type
 	traits = {
 		#
 	}

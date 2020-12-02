@@ -50,22 +50,22 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Bảo Đại" 
+	name = "Bao Dai" 
 	desc = ""
 	picture = "Portrait_Bao_Dai.tga"
 	expire = "1953.3.1"
-	ideology = national_socialism_type 
+	ideology = global_nazism 
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Bảo Đại" 
+	name = "Bao Dai" 
 	desc = ""
 	picture = "Portrait_Bao_Dai.tga"
 	expire = "1953.3.1"
-	ideology = nazism 
+	ideology = fascism_ideology 
 	traits = {
 		
 	}

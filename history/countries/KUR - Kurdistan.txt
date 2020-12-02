@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "someone idk"
 	desc = "super"
 	picture = "gfx/leaders/KUR/Portrait_KUR_Generic_1.dds"
-	ideology = neutrality
+	ideology = autocracy
 	traits = {
 		#
 	}

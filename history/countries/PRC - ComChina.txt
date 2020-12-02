@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "Portrait_Wang_Jingwei.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = imperial_fascism
 	traits = {
 		#
 	}

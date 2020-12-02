@@ -186,7 +186,7 @@ create_country_leader = {
 	desc = "POLITICS_JAMESE_DAVIS_DESC"
 	picture = "Portrait_CAC_James E Davis.dds"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = fascism_ideology
 	traits = {
 	}
 }
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGES_PATTON_DESC"
 	picture = "Portrait_CAC_GeorgePatton.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = autocracy
 	traits = {
 		great_war_hero
 	}

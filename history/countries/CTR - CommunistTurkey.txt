@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "someone idk"
 	desc = "super"
 	picture = "gfx/leaders/CTR/Portrait_CTR_Generic_1.dds"
-	ideology = communism
+	ideology = marxism
 	traits = {
 		#
 	}

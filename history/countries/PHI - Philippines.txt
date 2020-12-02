@@ -54,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "Portrait_Jose_P_Laurel.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = imperial_fascism
 	traits = {
 		#
 	}

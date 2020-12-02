@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
 	picture = "Portrait_Romania_Constantin_Parhon.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}

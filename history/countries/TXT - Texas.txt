@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
 	picture = "gfx/leaders/USA/Portrait_Douglas_MacArthur.tga"
 	expire = "1995.1.1"
-	ideology = despotism
+	ideology = autocracy
 	traits = {
 	}
 }
@@ -164,7 +164,7 @@ create_country_leader = {
 	desc = "POLITICS_EDWIN_WALKER_DESC"
 	picture = "Portrait_TXT_Edwin_Walker.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = fascism_ideology
 	traits = {
 	}
 }

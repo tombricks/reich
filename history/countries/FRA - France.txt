@@ -246,7 +246,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_type
 	traits = {
 		stout_defender
 	}
@@ -268,18 +268,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "GFX_portrait_fra_maurice_thorez"
 	expire = "1965.1.1"
-	ideology = 	stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {   
-	name = "Pierre Laval"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "gfx/leaders/FRA/portrait_fra_pierre_laval.dds"
-	expire = "1985.1.1"
-	ideology = fascism_ideology
+	ideology = 	marxism
 	traits = {
 		
 	}

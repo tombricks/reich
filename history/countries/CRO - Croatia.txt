@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Vladko Maček"
 	picture = "portrait_CRO_vladko_macek.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = autocracy
 	traits = {
 		#
 	}
@@ -94,7 +94,7 @@ create_country_leader = {
 	name = "Vladko Maček"
 	picture = "portrait_CRO_vladko_macek.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_type
 	traits = {
 		#
 	}

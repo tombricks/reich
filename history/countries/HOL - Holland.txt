@@ -263,7 +263,7 @@ create_country_leader = {
 	desc = "POLITICS_LOU_DE_VISSER_DESC"
 	picture = "GFX_portrait_HOL_lou_de_visser"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		veteran_communist
 	}
@@ -274,7 +274,7 @@ create_country_leader = {
 	desc = "POLITICS_WIM_SCHERMERHORN_DESC"
 	picture = "GFX_portrait_hol_wim_schermerhorn"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = autocracy
 	traits = {
 		#
 	}
