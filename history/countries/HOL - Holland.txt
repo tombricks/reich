@@ -254,6 +254,7 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = national_socialism_type
 	traits = {
+		TITLE_reichskommissar
 		leider
 	}
 }

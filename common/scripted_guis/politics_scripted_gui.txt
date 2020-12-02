@@ -1,0 +1,12 @@
+scripted_gui = {
+	politics_gui = {
+		context_type = player_context
+		
+		window_name = "politics_gui"
+		parent_window_token = politics_tab
+
+		visible = {
+			always = yes
+		}
+	}
+}

@@ -1,0 +1,19 @@
+defined_text = { # Country
+	name = GetLeaderTitle
+	text = { trigger = { has_country_leader_with_trait = TITLE_fuhrer } localization_key = TITLE_fuhrer }
+	text = { trigger = { has_country_leader_with_trait = TITLE_reichskommissar } localization_key = TITLE_reichskommissar }
+	text = { trigger = { has_country_leader_with_trait = TITLE_reichsfuhrer } localization_key = TITLE_reichsfuhrer }
+	text = { trigger = { has_country_leader_with_trait = TITLE_governor_general } localization_key = TITLE_governor_general }
+	text = { trigger = { has_country_leader_with_trait = TITLE_president } localization_key = TITLE_president }
+	text = { trigger = { has_country_leader_with_trait = TITLE_general_secretary } localization_key = TITLE_general_secretary }
+	text = { trigger = { has_country_leader_with_trait = TITLE_marshall } localization_key = TITLE_marshall }
+	text = { trigger = { has_country_leader_with_trait = TITLE_prime_minister } localization_key = TITLE_prime_minister }
+
+	text = { trigger = { has_government = democratic } localization_key = TITLE_prime_minister }
+	text = { trigger = { has_government = communism } localization_key = TITLE_general_secretary }
+	text = { trigger = { has_government = fascism } localization_key = TITLE_marshall }
+	text = { trigger = { has_government = national_socialism } localization_key = TITLE_marshall }
+	text = { trigger = { has_government = neutrality } localization_key = TITLE_president }
+	text = { trigger = { has_government = socialism } localization_key = TITLE_president }
+	text = { localization_key = TITLE_generic }
+}

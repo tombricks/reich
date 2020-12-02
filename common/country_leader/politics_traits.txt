@@ -1,0 +1,10 @@
+leader_traits = {
+	TITLE_fuhrer = { random = no }
+	TITLE_reichskommissar = { random = no }
+	TITLE_reichsfuhrer = { random = no }
+	TITLE_governor_general = { random = no }
+	TITLE_president = { random = no }
+	TITLE_general_secretary = { random = no }
+	TITLE_marshall = { random = no }
+	TITLE_prime_minister = { random = no }
+}

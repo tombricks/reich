@@ -1,0 +1,13 @@
+﻿l_english:
+ title_ui_text:0 "[This.GetLeaderTitle]"
+
+ TITLE_generic:0 "Leader"
+
+ TITLE_fuhrer:0 "Führer"
+ TITLE_reichskommissar:0 "Reichskommissar"
+ TITLE_reichsfuhrer:0 "Reichsführer-SS"
+ TITLE_governor_general:0 "Governor-General"
+ TITLE_president:0 "President"
+ TITLE_general_secretary:0 "General Secretary"
+ TITLE_marshall:0 "Marshall"
+ TITLE_prime_minister:0 "Prime Minister"
