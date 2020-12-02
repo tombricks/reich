@@ -19,6 +19,8 @@ defined_text = { # Country
 	text = { trigger = { has_country_leader_with_trait = TITLE_chief } localization_key = TITLE_chief }
 	text = { trigger = { has_country_leader_with_trait = TITLE_collective } localization_key = TITLE_collective }
 	text = { trigger = { has_country_leader_with_trait = TITLE_emperor } localization_key = TITLE_emperor }
+	text = { trigger = { has_country_leader_with_trait = TITLE_prince } localization_key = TITLE_prince }
+	text = { trigger = { has_country_leader_with_trait = TITLE_chairman } localization_key = TITLE_chairman }
 
 	text = { trigger = { has_government = democratic } localization_key = TITLE_prime_minister }
 	text = { trigger = { has_government = communism } localization_key = TITLE_general_secretary }
