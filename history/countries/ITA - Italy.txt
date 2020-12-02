@@ -141,12 +141,10 @@ set_popularities = {
 create_faction = "Protocolli di Roma"
 add_to_faction = GRE
 add_to_faction = EGY
-add_to_faction = SUD
 add_to_faction = BUL
 add_to_faction = CRO
 puppet = GRE
 puppet = EGY
-puppet = SUD
 
 create_country_leader = {
 	name = "Benito Mussolini"
