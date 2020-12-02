@@ -166,13 +166,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vidkun Quisling"
+	name = "Josef Terboven"
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling.dds"
+	picture = "Portrait_Josef_Terboven.tga"
 	expire = "1985.1.1"
 	ideology = national_socialism_type
 	traits = {
-		#
+		TITLE_reichskommissar
 	}
 }
 

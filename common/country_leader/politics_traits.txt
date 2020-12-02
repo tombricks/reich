@@ -9,4 +9,15 @@ leader_traits = {
 	TITLE_prime_minister = { random = no }
 	TITLE_king = { random = no }
 	TITLE_militarverwalter = { random = no }
+	TITLE_duce = { random = no }
+	TITLE_poglavnik = { random = no }
+	TITLE_legioner_lider = { random = no }
+	TITLE_conducator = { random = no }
+	TITLE_regent = { random = no }
+	TITLE_state_president = { random = no }
+	TITLE_chief = { random = no }
+	TITLE_collective = { random = no }
+	TITLE_emperor = { random = no }
+	TITLE_prince = { random = no }
+	TITLE_chairman = { random = no }
 }

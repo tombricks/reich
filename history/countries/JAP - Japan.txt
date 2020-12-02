@@ -192,6 +192,7 @@ create_country_leader = {
 	expire = "1989.1.1"
 	ideology = fascism_ideology
 	traits = {
+		TITLE_emperor
 		warrior_code
 		emperor_showa
 		imperial_sanction

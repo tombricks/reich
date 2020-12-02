@@ -50,12 +50,13 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Prince Demchugdongrub"
+	name = "Demchugdongrub"
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
 	picture = "Portrait_Demchugdongrub.tga"
 	expire = "1965.1.1"
 	ideology = imperial_fascism
 	traits = {
+		TITLE_prince
 		spirit_of_genghis
 	}
 }

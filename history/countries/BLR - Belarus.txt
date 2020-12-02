@@ -93,7 +93,7 @@ create_country_leader = {
 	ideology = national_socialism_type
 	
     traits = {
-        #
+        TITLE_reichskommissar
     }
 }
 

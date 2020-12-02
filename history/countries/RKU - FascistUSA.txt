@@ -55,7 +55,7 @@ create_country_leader = {
 	picture = "gfx/leaders/USA/Portrait_William_Dudley_Pelley.tga"
 	ideology = fascism_ideology
 	traits = {
-		#
+		TITLE_chief
 	}
 }
 
@@ -65,7 +65,7 @@ create_country_leader = {
 	picture = "gfx/leaders/USA/Portrait_Martin_Bormann.tga"
 	ideology = national_socialism_type
 	traits = {
-		#
+		TITLE_fuhrer
 	}
 }
 

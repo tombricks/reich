@@ -97,7 +97,7 @@ create_country_leader = {
 	expire = "1974.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		TITLE_Legioner_lider
 	}
 }
 

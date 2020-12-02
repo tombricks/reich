@@ -73,7 +73,7 @@ create_country_leader = {
 	picture = "gfx/leaders/RKM/Portrait_Reichskom_Generic_1.dds"
 	ideology = national_socialism_type
 	traits = {
-		#
+		TITLE_collective
 	}
 }
 

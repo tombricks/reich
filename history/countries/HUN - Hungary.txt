@@ -66,6 +66,9 @@ create_country_leader = {
 	picture = "Portrait_Miklos_Horthy.dds"
 	expire = "1965.1.1"
 	ideology = autocracy
+	traits = {
+		TITLE_regent
+	}
 }
 create_country_leader = {
 	name = "Miklós Horthy"
@@ -73,6 +76,9 @@ create_country_leader = {
 	picture = "Portrait_Miklos_Horthy.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
+	traits = {
+		TITLE_regent
+	}
 }
 
 create_country_leader = {

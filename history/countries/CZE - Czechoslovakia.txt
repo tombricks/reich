@@ -48,13 +48,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Phillip Bouhler"
+	name = "Emil Hácha"
 	desc = "POLITICS_PHILLIP_BOUHLER_DESC"
-	picture = "Portrait_Czech_Phillip_Bouhler.dds"
+	picture = "Portrait_Emil_Hacha.tga"
 	expire = "1999.1.1"
 	ideology = national_socialism_type
 	traits = {
-		#
+		TITLE_state_president
 	}
 }
 

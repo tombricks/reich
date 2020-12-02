@@ -56,6 +56,7 @@ create_country_leader = {
 	expire = "1960.1.1"
 	ideology = imperial_fascism
 	traits = {
+		TITLE_emperor
 		warrior_code
 	}
 }
