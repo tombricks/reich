@@ -63,7 +63,7 @@ create_country_leader = {
 	name = "Martin Bormann"
 	desc = ""
 	picture = "gfx/leaders/USA/Portrait_Martin_Bormann.tga"
-	ideology = national_socialism
+	ideology = national_socialism_type
 	traits = {
 		#
 	}

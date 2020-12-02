@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Heinrich Himmler"
 	desc = "mad man"
 	picture = "gfx/leaders/BRG/Portrait_Burgund_Generic_1.dds"
-	ideology = national_socialism
+	ideology = national_socialism_type
 	traits = {
 		#
 	}

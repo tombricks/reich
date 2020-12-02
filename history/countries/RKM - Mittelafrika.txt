@@ -71,7 +71,7 @@ create_country_leader = {
 	name = "Reichskolonialbund"
 	desc = "super"
 	picture = "gfx/leaders/RKM/Portrait_Reichskom_Generic_1.dds"
-	ideology = national_socialism
+	ideology = national_socialism_type
 	traits = {
 		#
 	}
