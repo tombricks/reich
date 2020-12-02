@@ -209,7 +209,7 @@ ideologies = {
 	
 		types = {
 			
-			national_socialism = {
+			national_socialism_type = {
 			}
 		
 		}
