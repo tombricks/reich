@@ -8,4 +8,5 @@ leader_traits = {
 	TITLE_marshall = { random = no }
 	TITLE_prime_minister = { random = no }
 	TITLE_king = { random = no }
+	TITLE_militarverwalter = { random = no }
 }

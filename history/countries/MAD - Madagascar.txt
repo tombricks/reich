@@ -1,4 +1,4 @@
-﻿capital = 16
+﻿capital = 543
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.9
@@ -48,9 +48,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Alfred Jodl"
+	name = "Hans-Jürgen von Arnim"
 	desc = ""
-	picture = "gfx/leaders/GER/Portrait_Alfred_Jodl.tga"
+	picture = "gfx/leaders/GER/Portrait_Hans_Arnim.tga"
 	ideology = national_socialism_type
 	traits = {
 		TITLE_militarverwalter
