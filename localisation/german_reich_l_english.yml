@@ -3,3 +3,21 @@
  GER_research_team_name:0 "Germania Vertrag"
  GER_research_team_desc:0 "Reduced research time for technologies researched by other members of the Germania Vertrag"
  GER_RKU_friendship:0 "Friendship from Unification"
+
+ GER_national_socialism_party:0 "NSDAP"
+ GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ POL_national_socialism_party:0 "NSDAP(PG)"
+ POL_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei (Polnischen Gebiete)"
+ UKR_national_socialism_party:0 "NSDAP(U)"
+ UKR_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei (Ukraine)"
+ BLR_national_socialism_party:0 "NSDAP(O)"
+ BLR_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei (Ostland)"
+
+ CZE_national_socialism_party:0 "NS"
+ CZE_national_socialism_party_long:0 "Národní souručenství"
+ 
+ BRI_national_socialism_party:0 "NSSSV-Bretagne"
+ BRI_national_socialism_party_long:0 "Nationalsozialistische Schutzstaffelverwaltung für Bretagne"
+ 
+ BRG_national_socialism_party:0 "NSSSV-Burgund"
+ BRG_national_socialism_party_long:0 "Nationalsozialistische Schutzstaffelverwaltung für Burgund"
