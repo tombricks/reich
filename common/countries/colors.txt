@@ -807,5 +807,13 @@ COC = {
 	color = rgb { 84 89 81 }
 	color_ui = rgb { 84 89 81 }
 }
+CTR = {
+	color = rgb { 186 76 80 }
+	color_ui = rgb { 186 76 80 }
+}
+KUR = {
+	color = rgb { 173 152 127 }
+	color_ui = rgb { 173 152 127 }
+}
 
 
