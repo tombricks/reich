@@ -220,6 +220,7 @@ ideologies = {
 		
 		types = {
 			marxism = {}
+			marxism_leninism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
