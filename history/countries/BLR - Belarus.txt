@@ -75,17 +75,6 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
-    ideology = autocracy
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
     name = "Hinrich Lohse"
     desc = ""
     picture = "gfx/leaders/BLR/Portrait_Hinrich_Lohse.dds"
@@ -98,26 +87,57 @@ create_country_leader = {
 }
 
 create_country_leader = {
-    name = "Panteleimon Ponomarenko"
+    name = "Hinrich Lohse"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-    expire = "1965.1.1"
-    ideology = marxism
+    picture = "gfx/leaders/BLR/Portrait_Hinrich_Lohse.dds"
+    expire = "1995.1.1"
+	ideology = fascism_ideology
+	
     traits = {
-        #
+        TITLE_reichskommissar
     }
 }
 
 create_country_leader = {
-    name = "Adam Stankievič"
+    name = "Mikoła Abramčyk"
     desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-    expire = "1965.1.1"
-    ideology = socialism_type
+    picture = "Portrait_Mikola_Abramcyk.tga"
+    expire = "1975.1.1"
+    ideology = autocracy
     traits = {
-        #
+        TITLE_marshal
     }
 }
 
+create_country_leader = {
+    name = "Mikoła Abramčyk"
+    desc = ""
+    picture = "Portrait_Mikola_Abramcyk.tga"
+    expire = "1975.1.1"
+    ideology = liberalism
+    traits = {
+        TITLE_chancellor
+    }
+}
 
+create_country_leader = {
+    name = "Brūno Kalniņš"
+    desc = ""
+    picture = "Portrait_Bruno_Kalnins.tga"
+    expire = "1965.1.1"
+    ideology = classical_marxism
+    traits = {
+        TITLE_president
+    }
+}
 
+create_country_leader = {
+    name = "Nikolai Patolichev"
+    desc = ""
+    picture = "Portrait_Nikolai_Patolichev.tga"
+    expire = "1965.1.1"
+    ideology = marxism_leninism
+    traits = {
+        TITLE_general_secretary
+    }
+}

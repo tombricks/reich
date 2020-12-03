@@ -242,23 +242,58 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "Albert Speer"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Albert_Speer.tga"
+	expire = "1995.1.1"
+	ideology = fascism_ideology
 	traits = {
+		TITLE_fuhrer
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Jodl"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Alfred_Jodl.tga"
+	expire = "1995.1.1"
+	ideology = militarism
+	traits = {
+		TITLE_militarverwalter
+	}
+}
+
+create_country_leader = {
+	name = "Kurt Schumacher"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_Kurt_Schumacher.tga"
+	expire = "1965.1.1"
+	ideology = socialism_type
+	traits = {
+		TITLE_chancellor
 	}
 }
 
 create_country_leader = {
 	name = "Wilhelm Pieck"
 	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	picture = "Portrait_Wilhelm_Pieck.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = marxism_leninism
 	traits = {
+		TITLE_general_secretary
 		exiled
+	}
+}
+
+create_country_leader = {
+	name = "Willy Brandt"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_Willy_Brandt.tga"
+	expire = "1965.1.1"
+	ideology = classical_marxism
+	traits = {
+		TITLE_chancellor
 	}
 }
 
