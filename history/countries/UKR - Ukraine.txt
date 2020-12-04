@@ -1,7 +1,5 @@
 ﻿capital = 202 #Kiev
-
 oob = "UKR_1936"
-set_cosmetic_tag = UKR_GER
 set_research_slots = 3
 
 # Starting tech
@@ -74,24 +72,46 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Kost Levytsky"
+	name = "Pavlo Skoropadskyi"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
+	picture = "Portrait_Pavlo_Skoropadskyi.tga"
+	expire = "1963.3.1"
+	ideology = autocracy
 	traits = {
-		
+		TITLE_hetman
 	}
 }
 
 create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchev"
+	name = "Andriy Livytskyi"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
+	picture = "Portrait_Andriy_Livytskyi.tga"
+	expire = "1963.3.1"
+	ideology = socialism_type
 	traits = {
-		
+		TITLE_president
+	}
+}
+
+create_country_leader = {
+	name = "Free Territory"
+	desc = ""
+	picture = "Portrait_Free_Territory.tga"
+	expire = "1963.3.1"
+	ideology = anarchism
+	traits = {
+		TITLE_collective
+	}
+}
+
+create_country_leader = {
+	name = "Nikita Khrushchev"
+	desc = ""
+	picture = "Portrait_Nikita_Krushchev.tga"
+	expire = "1963.3.1"
+	ideology = marxism_leninism
+	traits = {
+		TITLE_general_secretary
 	}
 }
 
@@ -106,16 +126,13 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = autocracy
-#	traits = {
-#		
-#	}
-#}
-
-
-
+create_country_leader = {
+	name = "Erich Koch"
+	desc = ""
+	picture = "gfx/leaders/UKR/Portrait_Erich_Koch.dds"
+	expire = "1993.3.1"
+	ideology = fascism_ideology
+	traits = {
+		TITLE_reichskommissar
+	}
+}

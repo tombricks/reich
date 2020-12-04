@@ -1,7 +1,5 @@
-﻿capital = 206 #Minsk
-
+﻿capital = 12 #Riga
 oob = "BLR_1936"
-set_cosmetic_tag = BLR_GER
 set_research_slots = 3
 
 # Starting tech

@@ -21,4 +21,5 @@ leader_traits = {
 	TITLE_prince = { random = no }
 	TITLE_chairman = { random = no }
 	TITLE_chancellor = { random = no }
+	TITLE_hetman = { random = no }
 }
