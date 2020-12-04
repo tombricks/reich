@@ -3,14 +3,12 @@ state={
 	name="STATE_853"
 
 	history={
-		owner = UTU
+		owner = USA
 		buildings = {
 			infrastructure = 4
 
 		}
 		add_core_of = USA
-		add_core_of = UTU
-		add_core_of = NVN
 		victory_points = {
 			7827 1 
 		}

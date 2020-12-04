@@ -9,7 +9,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = RKU
+		owner = USA
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -17,7 +17,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = RKU
 		victory_points = {
 			6855 10
 		}

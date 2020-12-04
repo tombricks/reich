@@ -2,7 +2,7 @@ state={
 	id=855
 	name="STATE_855"
 	history={
-		owner = CAC
+		owner = USA
 
 		buildings = {
 			infrastructure = 6
@@ -16,7 +16,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = CAC
 		victory_points = {
 			1562 15 
 		}

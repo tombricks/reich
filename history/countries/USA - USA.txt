@@ -1,5 +1,5 @@
-﻿capital = 1175
-oob = "USA_1936"
+﻿capital = 361
+oob = "USA_1939"
 set_research_slots = 4
 set_stability = 0.8
 set_war_support = 0.3
@@ -150,8 +150,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	partial_economic_mobilisation
-	limited_conscription
+	undisturbed_isolation
 }
 
 create_country_leader = {

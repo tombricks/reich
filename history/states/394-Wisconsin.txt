@@ -10,13 +10,12 @@ state={
 	}
 
 	history={
-		owner = RKU
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 		}
 		add_core_of = USA
-		add_core_of = RKU
 		victory_points = {
 			12357 5 
 		}

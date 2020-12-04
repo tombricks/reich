@@ -4,7 +4,7 @@ state={
 	name="STATE_361"
 
 	history={
-		owner = RKU
+		owner = USA
 		victory_points = {
 			3957 40 
 		}
@@ -13,7 +13,6 @@ state={
 			industrial_complex = 2
 
 		}
-		add_core_of = RKU
 		add_core_of = USA
 
 	}

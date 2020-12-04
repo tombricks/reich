@@ -7,11 +7,10 @@ state={
 	state_category = rural
 
 	history={
-		owner = TXT
+		owner = MEX
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TXT
 		add_core_of = MEX
 
 		victory_points = {

@@ -7,14 +7,13 @@ state={
 	state_category = city
 
 	history={
-		owner = RKU
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
 			air_base = 4
 		}
 		add_core_of = USA
-		add_core_of = RKU
 		victory_points = {
 			6696 3
 		}
