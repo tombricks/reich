@@ -819,3 +819,7 @@ MAD = {
 	color = rgb { 77 77 77 }
 	color_ui = rgb { 61 61 61 }
 }
+VCT = {
+	color = rgb { 250  224  10 }
+    color_ui = rgb { 250  224  10 }	
+}
