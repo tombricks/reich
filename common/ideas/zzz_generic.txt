@@ -1096,6 +1096,444 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10750
 			}
 		}
+
+		the_communist_revolution = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.1
+			}
+		}
+
+		a_socialist_thoughtwave = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				socialism_drift = 0.1
+			}
+		}
+
+		spread_workplace_propaganda = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.1
+				socialism_drift = 0.1
+			}
+		}
+
+		encourage_leftist_unity = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.1
+				socialism_drift = 0.05
+				stability_weekly = 0.05
+			}
+		}
+
+		infiltrate_the_centre_left = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				socialism_drift = 0.075
+				democratic_drift = -0.075
+			}
+		}
+
+		fund_the_antifascist_paramilitary = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.075
+				socialism_drift = 0.075
+				training_time_army_factor = -0.1
+			}
+		}
+
+		long_live_communism = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				communism_drift = 0.15
+				drift_defence_factor = 0.15
+			}
+		}
+
+		long_live_socialism = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				socialism_drift = 0.15
+				drift_defence_factor = 0.15
+			}
+		}
+
+		a_democratic_ethos = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.1
+			}
+		}
+
+		the_authoritarian_might = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				neutrality_drift = 0.1
+			}
+		}
+
+		oppose_political_extremism = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				communism_drift = -0.1
+				socialism_drift = -0.1
+				fascism_drift = -0.1
+				national_socialism_drift = -0.1
+				democratic_drift = 0.2
+				neutrality_drift = 0.2
+			}
+		}
+
+		encourage_democratic_thinkers = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.25
+				neutrality_drift = -0.05
+				socialism_drift = -0.05
+				communism_drift = -0.05
+				national_socialism_drift = -0.05
+				fascism_drift = -0.05
+			}
+		}
+
+		show_off_our_military_strength = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				neutrality_drift = 0.1
+				war_support_weekly = 0.05
+			}
+		}
+
+		eliminate_the_radical_paramilitaries = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				military_leader_cost_factor = -0.20
+			}
+		}
+
+		long_live_democracy = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.15
+				drift_defence_factor = 0.15
+			}
+		}
+
+		long_live_authoritarianism = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_neutrality_drift_bonus
+			
+			modifier = {
+				neutrality_drift = 0.15
+				drift_defence_factor = 0.15
+			}
+		}
+
+		a_fascist_direction = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.1
+			}
+		}
+
+		the_national_socialist_path = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				national_socialism_drift = 0.1
+			}
+		}
+
+		encourage_nationalist_theorists = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.1
+				national_socialism_drift = 0.1
+			}
+		}
+
+		embrace_our_historical_greatness = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.1
+				war_support_weekly = 0.15
+				stability_weekly = 0.05
+			}
+		}
+
+		embrace_our_mythological_supremacy = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.1
+				stability_weekly = 0.15
+				war_support_weekly = 0.05
+			}
+		}
+
+		fund_the_nationalist_paramilitary = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.075
+				national_socialism_drift = 0.075
+				training_time_army_factor = -0.1
+			}
+		}
+
+		long_live_fascism = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				fascism_drift = 0.15
+				drift_defence_factor = 0.15
+			}
+		}
+
+		long_live_national_socialism = {
+			
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				national_socialism_drift = 0.15
+				drift_defence_factor = 0.15
+			}
+		}
 	}
 	
 	political_advisor = {
