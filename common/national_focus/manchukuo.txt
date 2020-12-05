@@ -2052,27 +2052,6 @@
 					limit = {
 						has_government = fascism
 					}
-					create_country_leader = {
-						name = "Xuantong"
-						picture = "GFX_portrait_man_henry_pu_yi_emperor"
-						expire = "1960.1.1"
-						ideology = rexism
-						traits = {
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						has_government = neutrality
-					}
-					create_country_leader = {
-						name = "Xuantong"
-						picture = "GFX_portrait_man_henry_pu_yi_emperor"
-						expire = "1960.1.1"
-						ideology = despotism
-						traits = {
-						}
-					}
 				}
 			}
 		}

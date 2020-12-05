@@ -1329,16 +1329,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			create_country_leader = {
-				name = "Markos Vafiadis"
-				desc = "POLITICS_MARKOS_VAFIADIS_DESC"
-				picture = "Portrait_Greece_Markos_Vafiadis.dds"
-				expire = "1965.1.1"
-				ideology = marxism
-				traits = {
-					guerilla_warfare_expert
-				}
-			}
 			swap_ideas = {
 				remove_idea = GRE_red_militias_spirit
 				add_idea = GRE_red_militias_2
@@ -1822,31 +1812,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			effect_tooltip = {
-				create_country_leader = {
-					name = "Ioannis Metaxas"
-					desc = "POLITICS_IOANNIS_METAXAS_DESC"
-					picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						arkhigos
-					}
-				}
 			}
 			add_ideas = GRE_metaxism
 			custom_effect_tooltip = GRE_metaxism_warning_tt
-			hidden_effect = { 
-				retire_country_leader = yes
-				create_country_leader = {
-					name = "Ioannis Metaxas"
-					desc = "POLITICS_IOANNIS_METAXAS_DESC"
-					picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						arkhigos
-					}
-				}
+			hidden_effect = {
 				set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 				set_politics = { ruling_party = neutrality elections_allowed = no }
 				swap_ideas = { 

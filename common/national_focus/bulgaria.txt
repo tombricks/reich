@@ -2584,16 +2584,6 @@ focus_tree = {
 				custom_effect_tooltip = BUL_depose_the_tsar_cw_tt
 
 				clr_country_flag = BUL_factions_unlocked_flag
-				create_country_leader = {
-					name = "Georgi Kyoseivanov"
-					desc = "POLITICS_GEORGI_KYOSEIVANOV_DESC"
-					picture = GFX_portrait_bul_georgi_kyoseivanov
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						incompetent_leader
-					}
-				}
 			}
 			else = {
 				add_stability = -0.1
@@ -2605,16 +2595,6 @@ focus_tree = {
 						}
 					}
 					retire_country_leader = yes
-				}
-				create_country_leader = {
-					name = "Georgi Kyoseivanov"
-					desc = "POLITICS_GEORGI_KYOSEIVANOV_DESC"
-					picture = GFX_portrait_bul_georgi_kyoseivanov
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						incompetent_leader
-					}
 				}
 
 				#Separate scopes for tt reasons
@@ -4655,16 +4635,6 @@ focus_tree = {
 				}
 				custom_effect_tooltip = BUL_depose_the_tsar_cw_tt
 				clr_country_flag = BUL_factions_unlocked_flag
-				create_country_leader = {
-					name = "Georgi Kyoseivanov"
-					desc = "POLITICS_GEORGI_KYOSEIVANOV_DESC"
-					picture = GFX_portrait_bul_georgi_kyoseivanov
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						incompetent_leader
-					}
-				}
 			}
 			else = {
 				every_unit_leader = {
@@ -4691,16 +4661,6 @@ focus_tree = {
 						}
 					}
 					retire_country_leader = yes
-				}
-				create_country_leader = {
-					name = "Georgi Kyoseivanov"
-					desc = "POLITICS_GEORGI_KYOSEIVANOV_DESC"
-					picture = GFX_portrait_bul_georgi_kyoseivanov
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						incompetent_leader
-					}
 				}
 			}
 
@@ -6770,16 +6730,6 @@ focus_tree = {
 				long_name = BUL_ferdinand_loyalists_party_long
 				name = BUL_ferdinand_loyalists_party
 			}
-			create_country_leader = {
-				name = "Ferdinand I"
-				desc = "POLITICS_FERDINAND_I_DESC"
-				picture = GFX_portrait_bul_ferdinand_i
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					dreams_of_a_new_byzantium
-				}
-			}
 			if = {
 				limit = {
 					NOT = { has_government = neutrality }
@@ -7555,16 +7505,6 @@ focus_tree = {
 				}
 				custom_effect_tooltip = BUL_depose_the_tsar_cw_tt
 				clr_country_flag = BUL_factions_unlocked_flag
-				create_country_leader = {
-					name = "Georgi Kyoseivanov"
-					desc = "POLITICS_GEORGI_KYOSEIVANOV_DESC"
-					picture = GFX_portrait_bul_georgi_kyoseivanov
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						incompetent_leader
-					}
-				}
 			}
 			else = {
 				random_unit_leader = {
@@ -7588,16 +7528,6 @@ focus_tree = {
 						}
 					}
 					retire_country_leader = yes
-				}
-				create_country_leader = {
-					name = "Georgi Kyoseivanov"
-					desc = "POLITICS_GEORGI_KYOSEIVANOV_DESC"
-					picture = GFX_portrait_bul_georgi_kyoseivanov
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						incompetent_leader
-					}
 				}
 				add_stability = -0.1
 			}

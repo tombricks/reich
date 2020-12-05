@@ -426,16 +426,6 @@ focus_tree = {
 							popularity = 0.35
 						}
 					}
-					create_country_leader = {
-						name = "Subhas Chandra Bose"
-						desc = "POLITICS_SUBHAS_CHANDRA_BOSE_DESC"
-						picture = GFX_RAJ_subhas_chandra_bose
-						expire = "1965.1.1"
-						ideology = stalinism
-						traits = {
-							indomitable_perseverance
-						}
-					}
 					retire_country_leader = yes
 				}
 				random_other_country = {
@@ -891,16 +881,6 @@ focus_tree = {
 						add_popularity = {
 							ideology = fascism
 							popularity = 0.35
-						}
-					}
-					create_country_leader = {
-						name = "Subhas Chandra Bose"
-						desc = "POLITICS_SUBHAS_CHANDRA_BOSE_DESC"
-						picture = GFX_RAJ_subhas_chandra_bose
-						expire = "1965.1.1"
-						ideology = nazism
-						traits = {
-							indomitable_perseverance
 						}
 					}
 				}

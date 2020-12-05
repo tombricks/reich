@@ -1948,16 +1948,6 @@ focus_tree = {
 					}
 				}
 			}
-			create_country_leader = {
-				name = "Prince Paul"
-				desc = "POLITICS_PRINCE_PAUL_DESC"
-				picture = "Portrait_Yugoslavia_Prince_Paul.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					#
-				}
-			}
 		}
 	}
 
@@ -2307,48 +2297,6 @@ focus_tree = {
 				limit = {
 					date < 1941.09.06
 				}
-				create_country_leader = {
-					name = "Peter II"
-					desc = "POLITICS_PETER_II_DESC"
-					picture = "portrait_YUG_peter_II_young.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						underage_monarch
-					}
-				}
-				create_country_leader = {
-					name = "Peter II"
-					desc = "POLITICS_PETER_II_DESC"
-					picture = "portrait_YUG_peter_II_young.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-						underage_monarch
-					}
-				}
-			}
-			else = {
-				create_country_leader = {
-					name = "Peter II"
-					desc = "POLITICS_PETER_II_DESC"
-					picture = "Portrait_Yugoslavia_Peter_II.dds"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						legitimate_heir
-					}
-				}
-				create_country_leader = {
-					name = "Peter II"
-					desc = "POLITICS_PETER_II_DESC"
-					picture = "Portrait_Yugoslavia_Peter_II.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-						legitimate_heir
-					}
-				}
 				hidden_effect = { set_country_flag = peter_is_of_age }
 			}
 		}
@@ -2420,16 +2368,6 @@ focus_tree = {
 						}
 						NOT = { has_idea = king_peter_1 }
 						has_completed_focus = YUG_western_focus
-					}
-					create_country_leader = {
-						name = "Paul I"
-						desc = "POLITICS_PRINCE_PAUL_DESC"
-						picture = "Portrait_Yugoslavia_Prince_Paul.dds"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							collaborator_king
-						}
 					}
 					set_party_name = { 
 						ideology = fascism

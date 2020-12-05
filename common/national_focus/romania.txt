@@ -1876,25 +1876,6 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_political_power = 120
-			create_country_leader = {
-				name = "Carol II"
-				desc = "POLITICS_CAROL_II_DESC"
-				picture = GFX_Portrait_romania_Carol_II				
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					hedonist
-				}
-				id = 550
-			}
-			set_politics = {
-				ruling_party = neutrality
-				elections_allowed = no
-			}
-			set_political_party = {
-				ideology = neutrality
-				popularity = 65
-			}
 			remove_ideas = neutrality_idea
 		}		
 	}
@@ -2520,17 +2501,6 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			create_country_leader = {
-				name = "Ion Antonescu"
-				desc = "POLITICS_ION_ANTONESCU_DESC"
-				picture = "Portrait_Romania_Ion_Antonescu.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					#
-				}
-			}
-
 			set_party_name = { 
 			    ideology = fascism
 			    long_name = ROM_fascism_party2_long
@@ -2687,15 +2657,6 @@
 
 		completion_reward = {
 			unlock_decision_category_tooltip = ROM_change_sides
-			create_country_leader = {
-				name = "Michael I"
-				desc = "POLITICS_MICHAEL_I_DESC"
-				picture = GFX_Portrait_romania_michael_i				
-				expire = "1965.1.1"
-				ideology = liberalism
-				traits = {
-				}
-			}
 			set_politics = {
 				ruling_party = democratic
 				elections_allowed = yes

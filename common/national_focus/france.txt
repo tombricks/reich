@@ -1535,17 +1535,6 @@
 
 		search_filters = { FOCUS_FILTER_POLITICAL  }
 		completion_reward = {
-			create_country_leader = {
-				name = "Léon Blum"
-				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-				picture = GFX_portrait_fra_leon_blum
-				expire = "1965.1.1"
-				ideology = socialism
-				traits = {
-					reluctant_interventionist
-					stout_defender
-				}
-			}
 			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } #fires strike event if labour laws not reformed in time
 		}
 	}
@@ -4981,16 +4970,6 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			hidden_effect = {
-				create_country_leader = {
-					name = "Pierre Laval"
-					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-					picture = GFX_portrait_fra_pierre_laval
-					expire = "1965.1.1"
-					ideology = rexism
-					traits = {
-						tenacious_negotiator
-					}
-				}
 			}
 			set_politics = {
 				ruling_party = fascism
@@ -5325,16 +5304,6 @@
 		completion_reward = {
 			set_rule = { can_create_factions = yes }
 			create_faction = FRA_latin_entente
-			create_country_leader = {
-				name = "François de la Rocque"
-				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-				picture = GFX_portrait_fra_francois_de_la_rocque
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					retired_officer
-				}
-			}
 		}
 	}
 	focus = {
@@ -5706,16 +5675,6 @@
 
 		completion_reward = {
 			add_stability = -0.05
-			create_country_leader = {
-				name = "Jacques Doriot"
-				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-				picture = GFX_portrait_fra_jacques_doriot
-				expire = "1965.1.1"
-				ideology = nazism
-				traits = {
-					eager_collaborator
-				}
-			}
 		}
 	}
 	focus = {
@@ -6804,33 +6763,6 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			if = {
-				limit = {
-					date < 1940.8.25
-				}
-				create_country_leader = {
-					name = "Jean III"
-					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-					picture = GFX_portrait_fra_jean_duke_of_guise
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						duke_of_orleans
-					}
-				}
-			}
-			else = {
-				create_country_leader = {
-					name = "Henri VI"
-					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-					picture = GFX_portrait_fra_henry_count_of_paris
-					expire = "1965.1.1"
-					ideology = moderatism
-					traits = {
-						count_of_paris
-					}
-				}
-			}
 			set_party_name = {
 				ideology = neutrality
 				long_name = FRA_orleanist_party_long
@@ -7129,33 +7061,6 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			if = {
-				limit = {
-					date < 1941.2.21 #TODO_GABRIEL: coordinate with Drikus for death events
-				}
-				create_country_leader = {
-					name = "Alphonse I"
-					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-					picture = GFX_portrait_SPA_alfonso_xiii
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						
-					}
-				}
-			}
-			else = {
-				create_country_leader = {
-					name = "Jacques II"
-					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-					picture = GFX_portrait_fra_infante_jaime
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						
-					}
-				}
-			}
 			set_party_name = {
 				ideology = neutrality
 				long_name = FRA_legitimist_party_long
@@ -7396,16 +7301,6 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			create_country_leader = {
-				name = "Napoléon VI"
-				desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-				picture = GFX_portraits_fra_napoleon_vi
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					
-				}
-			}
 			set_party_name = {
 				ideology = neutrality
 				long_name = FRA_bonepartist_party_long

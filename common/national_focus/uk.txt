@@ -8594,19 +8594,6 @@ focus_tree = {
 			hidden_effect = {
 				kill_country_leader = yes
 			}
-			set_politics = { ruling_party = neutrality elections_allowed = no }
-			add_popularity = { ideology = neutrality popularity = 0.15 }
-			remove_ideas = ENG_king_edward
-			create_country_leader = {
-				name = "Edward VIII"
-				desc = "POLITICS_EDWARD_EDWARD_DESC"
-				picture = "Portrait_Britain_Edward_VIII.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					inexperienced_imperialist
-				}
-			}
 			hidden_effect = { news_event = { id = mtg_news.19 days = 1 } }
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ENG_winston_churchill
@@ -10261,17 +10248,6 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = { name = "Harry Pollitt" ruling_only = yes }
-				}
-				retire_country_leader = yes
-				create_country_leader = {
-					name = "Rajani Palme Dutt"
-					desc = "POLITICS_PALME_DUTT_DESC"
-					picture = "Portrait_Britain_Palme_Dutt.dds"
-					expire = "1965.1.1"
-					ideology = leninism
-					traits = {
-						
-					}
 				}
 			}
 			add_ai_strategy = {

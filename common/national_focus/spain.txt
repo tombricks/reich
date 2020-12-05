@@ -1230,18 +1230,6 @@ focus_tree = {
 				limit = {
 					NOT = { has_global_flag = spanish_civil_war }
 				}
-				effect_tooltip = {
-					create_country_leader = {
-						name = "Emilio Mola"
-						desc = "POLITICS_EMILIO_MOLA_DESC"
-						picture = "GFX_portrait_emilio_mola"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							the_director
-						}
-					}
-				}
 			}
 			if = {
 				limit = {
@@ -1250,59 +1238,6 @@ focus_tree = {
 				hidden_effect = {
 					kill_country_leader = yes
 					kill_ideology_leader = fascism
-				}
-				create_country_leader = {
-					name = "Emilio Mola"
-					desc = "POLITICS_EMILIO_MOLA_DESC"
-					picture = "GFX_portrait_emilio_mola"
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						the_director
-					}
-				}
-				hidden_effect = {
-					create_country_leader = {
-						name = "Emilio Mola"
-						desc = "POLITICS_EMILIO_MOLA_DESC"
-						picture = "GFX_portrait_emilio_mola"
-						expire = "1965.1.1"
-						ideology = falangism
-						traits = {
-							the_director
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				hidden_effect = {
-					kill_country_leader = yes
-					kill_ideology_leader = neutrality
-				}
-				create_country_leader = {
-					name = "Emilio Mola"
-					desc = "POLITICS_EMILIO_MOLA_DESC"
-					picture = "GFX_portrait_emilio_mola"
-					expire = "1965.1.1"
-					ideology = falangism
-					traits = {
-						the_director
-					}
-				}
-				hidden_effect = {
-					create_country_leader = {
-						name = "Emilio Mola"
-						desc = "POLITICS_EMILIO_MOLA_DESC"
-						picture = "GFX_portrait_emilio_mola"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							the_director
-						}
-					}
 				}
 			}
 		}
@@ -1599,16 +1534,6 @@ focus_tree = {
 				set_cosmetic_tag = SPA_spanish_empire
 				kill_country_leader = yes
 				kill_ideology_leader = neutrality
-			}
-			create_country_leader = {
-				name = "José Antonio Primo de Rivera"
-				desc = "POLITICS_JOSE_ANTONIO_PRIMO_DE_RIVERA_DESC"
-				picture = "GFX_portrait_SPA_jose_antonio_primo_de_rivera"
-				expire = "1965.1.1"
-				ideology = falangism
-				traits = {
-					sins_of_the_father
-				}
 			}
 		}
 	}
@@ -3542,26 +3467,6 @@ focus_tree = {
 				kill_country_leader = yes
 				kill_ideology_leader = fascism
 			}
-			create_country_leader = {
-				name = "Francisco Franco"
-				desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-				picture = "GFX_portrait_spain_francisco_franco"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					caudillo_1
-				}
-			}
-			create_country_leader = {
-				name = "Francisco Franco"
-				desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-				picture = "GFX_portrait_spain_francisco_franco"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					caudillo_1
-				}
-			}
 		}
 	}
 
@@ -4788,40 +4693,6 @@ focus_tree = {
 			add_stability = 0.05
 			remove_country_leader_trait = caudillo_1
 			add_country_leader_trait = caudillo_2
-			hidden_effect = {
-				if = {
-					limit = {
-						has_government = neutrality
-					}
-					retire_ideology_leader = fascism
-					create_country_leader = {
-						name = "Francisco Franco"
-						desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-						picture = "GFX_portrait_spain_francisco_franco_old"
-						expire = "1965.1.1"
-						ideology = fascism_ideology
-						traits = {
-							caudillo_2
-						}
-					}
-				}
-				if = {
-					limit = {
-						has_government = fascism
-					}
-					retire_ideology_leader = neutrality
-					create_country_leader = {
-						name = "Francisco Franco"
-						desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-						picture = "GFX_portrait_spain_francisco_franco_old"
-						expire = "1965.1.1"
-						ideology = despotism
-						traits = {
-							caudillo_2
-						}
-					}
-				}
-			}
 		}
 	}
 
@@ -5574,16 +5445,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
 			add_stability = 0.05
-			create_country_leader = {
-				name = "Manuel Fal Conde"
-				desc = "POLITICS_MANUEL_FAL_CONDE_DESC"
-				picture = "GFX_portrait_SPA_manuel_fal_conde"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					jefe
-				}
-			}
 		}
 	}
 
@@ -7727,27 +7588,7 @@ focus_tree = {
 					set_politics = {
 						ruling_party = neutrality
 					}
-					set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
-					create_country_leader = {
-						name = "Julián Gorkin"
-						desc = "POLITICS_JULIAN_GORKIN_DESC"
-						picture = "GFX_portrait_SPR_julian_gorkin"
-						expire = "1965.1.1"
-						ideology = anarchist_communism
-						traits = {
-							militant_socialist
-						}
-					}
-					create_country_leader = {
-						name = "Anarchist Commune"
-						desc = "POLITICS_ANARCHIST_COMMUNE_DESC"
-						picture = "GFX_portrait_SPR_anarchist_commune"
-						expire = "1965.1.1"
-						ideology = anarchism
-						traits = {
-							our_right_to_survive
-						}
-					}
+					
 					add_popularity = {
 					    ideology = fascism
 					    popularity = -1
@@ -7772,17 +7613,6 @@ focus_tree = {
 					}
 					set_politics = {
 						ruling_party = communism
-					}
-					set_party_name = { ideology = communism long_name = SPR_communism_independent_party_long name = SPR_communism_independent_party }
-					create_country_leader = {
-						name = "Julián Gorkin"
-						desc = "POLITICS_JULIAN_GORKIN_DESC"
-						picture = "GFX_portrait_SPR_julian_gorkin"
-						expire = "1965.1.1"
-						ideology = anarchist_communism
-						traits = {
-							militant_socialist
-						}
 					}
 					create_field_marshal = {
 						name = "José Rovira"

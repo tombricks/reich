@@ -202,16 +202,6 @@ focus_tree = {
 				maneuvering_skill = 2
 				coordination_skill = 4				
 			}
-			create_country_leader = {
-				name = "Otto von Habsburg"
-				desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
-				picture = GFX_Portrait_hungary_otto_von_hapsburg
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-					
-				}
-			}
 			swap_ideas = {
 				add_idea = HUN_habsburg_restored
 				remove_idea = HUN_hungarian_monarchy_2
@@ -1172,42 +1162,6 @@ focus_tree = {
 				limit = {
 					has_government = neutrality
 				}
-				add_popularity = { ideology = fascism popularity = 0.05 }
-				create_country_leader = {
-					name = "Friedrich Franz of Mecklenburg-Schwerin"
-					desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
-					picture = GFX_Portrait_hungary_friedrich_franz
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						fascist_sympathies
-					}
-					id = 501 #Neutral Franz
-				}
-				hidden_effect = {
-					create_country_leader = {
-						name = "Friedrich Franz of Mecklenburg-Schwerin"
-						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
-						picture = GFX_Portrait_hungary_friedrich_franz
-						expire = "1965.1.1"
-						ideology = nazism
-						traits = {
-						}
-						id = 502 #Nazi Franz
-					}
-				}
-				else = {
-					create_country_leader = {
-						name = "Friedrich Franz of Mecklenburg-Schwerin"
-						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
-						picture = GFX_Portrait_hungary_friedrich_franz
-						expire = "1965.1.1"
-						ideology = nazism
-						traits = {
-						}
-						id = 502 #Nazi Franz
-					}
-				}
 			}
 			hidden_effect = {
 				news_event = { id = news.297 }
@@ -1287,21 +1241,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_timed_idea = { idea = HUN_strengthen_fascists days = 720 }
-			add_popularity = { ideology = fascism popularity = 0.05 }
-			set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
-			hidden_effect = {
-				create_country_leader = {
-					name = "Miklós Horthy"
-					desc = "POLITICS_MIKLOS_HORTHY_DESC"
-					picture = "Portrait_Hungary_Miklos_Horthy.dds"
-					expire = "1965.1.1"
-					ideology = fascism_ideology
-					traits = {
-						anti_communist
-					}
-					id = 503 #Horthy fascist
-				}
-			}
 		}
 	}
 
@@ -2465,16 +2404,6 @@ focus_tree = {
 							NOT = {
 								has_completed_focus = SOV_great_purge
 							}
-						}
-					}
-					retire_country_leader = yes
-					create_country_leader = {
-						name = "Bela Kun"
-						desc = "POLITICS_BELA_KUN_DESC"
-						picture = GFX_Portrait_hungary_bela_kun
-						expire = "1965.1.1"
-						ideology = marxism
-						traits = {
 						}
 					}
 				}

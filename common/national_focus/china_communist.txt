@@ -126,16 +126,6 @@ focus_tree = {
 				limit = {
 					original_tag = PRC
 				}
-				create_country_leader = {
-					name = "Wang Ming"
-					desc = "POLITICS_WANG_MING_DESC"
-					picture = "GFX_portrait_prc_wang_ming"
-					expire = "1965.1.1"
-					ideology = marxism
-					traits = {
-						
-					}
-				}
 			}
 		}
 	}
@@ -527,16 +517,6 @@ focus_tree = {
 			if = {
 				limit = {
 					original_tag = PRC
-				}
-				create_country_leader = {
-					name = "Zhang Lan"
-					desc = "POLITICS_ZHANG_LAN_DESC"
-					picture = "GFX_portrait_prc_zhang_lan"
-					expire = "1965.1.1"
-					ideology = marxism
-					traits = {
-						
-					}
 				}
 			}
 			set_politics = {
