@@ -174,38 +174,46 @@ set_popularities = {
 	national_socialism = 70
 }
 
-
-puppet = BLR
-puppet = UKR
-puppet = BRG
-puppet = ICE
-puppet = DEN
-puppet = NOR
-puppet = BRI
-puppet = CZE
-puppet = HOL
-puppet = POL
-puppet = NFR
-puppet = RKM
-puppet = MAD
-puppet = SLO
-
 create_faction = GER_faction
 add_to_faction = GER
-add_to_faction = BLR
-add_to_faction = UKR
-add_to_faction = BRG
-add_to_faction = ICE
-add_to_faction = DEN
-add_to_faction = NOR
-add_to_faction = BRI
-add_to_faction = CZE
-add_to_faction = HOL
-add_to_faction = POL
-add_to_faction = NFR
-add_to_faction = RKM
-add_to_faction = MAD
-add_to_faction = SLO
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	
+	set_autonomy = { target = ICE autonomy_state = autonomy_reichstaat }
+	set_autonomy = { target = SLO autonomy_state = autonomy_reichstaat }
+	set_autonomy = { target = BRG autonomy_state = autonomy_reichstaat }
+	set_autonomy = { target = BRI autonomy_state = autonomy_reichstaat }
+	set_autonomy = { target = DEN autonomy_state = autonomy_protektorat }
+	set_autonomy = { target = CZE autonomy_state = autonomy_protektorat }
+	set_autonomy = { target = RKM autonomy_state = autonomy_protektorat }
+	set_autonomy = { target = NOR autonomy_state = autonomy_reichskommissariat }
+	set_autonomy = { target = HOL autonomy_state = autonomy_reichskommissariat }
+	set_autonomy = { target = POL autonomy_state = autonomy_reichskommissariat }
+	set_autonomy = { target = NFR autonomy_state = autonomy_reichskommissariat }
+	set_autonomy = { target = MAD autonomy_state = autonomy_reichskommissariat }
+	set_autonomy = { target = BLR autonomy_state = autonomy_reichskommissariat }
+	set_autonomy = { target = UKR autonomy_state = autonomy_reichskommissariat }
+
+	else = {
+		puppet = ICE
+		puppet = DEN
+		puppet = NOR
+		puppet = CZE
+		puppet = HOL
+		puppet = POL
+		puppet = NFR
+		puppet = RKM
+		puppet = MAD
+		puppet = SLO
+		puppet = BLR
+		puppet = UKR
+		add_to_faction = BRG
+		add_to_faction = BRI
+	}
+}
 
 add_to_tech_sharing_group = GER_research_team
 every_other_country = {
@@ -213,15 +221,6 @@ every_other_country = {
 		is_in_faction_with = GER
 	}
 	add_to_tech_sharing_group = GER_research_team
-}
-
-add_opinion_modifier = {
-	target = RKU
-	modifier = GER_RKU_friendship
-}
-reverse_add_opinion_modifier = {
-	target = RKU
-	modifier = GER_RKU_friendship
 }
 
 create_country_leader = {
