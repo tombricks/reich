@@ -6,9 +6,9 @@ bookmarks = {
 		picture = "GFX_new_dawn_bookmark"
 		default_country = "GER"
 	
-		RKU = {
-			history = RKU_NDB_LOC
-			ideology = fascism
+		USA = {
+			history = USA_NDB_LOC
+			ideology = democratic
 			ideas = {}
 			focuses = {}
 		}
