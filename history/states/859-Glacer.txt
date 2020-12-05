@@ -9,7 +9,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = MTM
 		victory_points = {
 			12676 1 
 		}
