@@ -1,6 +1,6 @@
 ﻿capital = 219
 set_convoys = 50
-oob = "SOV_1939"
+oob = "SOV_1952"
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8

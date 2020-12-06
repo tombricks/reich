@@ -1,0 +1,36 @@
+political_actions = {
+	SOV_offer_peace = {
+
+		icon = generic_formable_nations
+
+		available = {
+			surrender_progress > 0.1
+		}
+
+		visible = {
+			has_war_with = GER
+		}
+		
+		fire_only_once = yes
+		
+		cost = 15
+		
+		complete_effect = {
+			GER = {
+				country_event = SOV_Death_of_Stalin.2
+			}
+		}
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				219 = {
+					CONTROLLER = {
+						is_in_faction_with = GER
+					}
+				}
+				add = 100000
+			}
+		}
+	}
+}

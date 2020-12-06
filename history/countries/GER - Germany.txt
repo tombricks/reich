@@ -1,5 +1,5 @@
 ﻿capital = 1105
-oob = "GER_1939"
+oob = "GER_1952"
 set_fuel_ratio = 0.8
 set_research_slots = 4
 set_convoys = 200

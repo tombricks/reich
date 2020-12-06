@@ -369,3 +369,14 @@ NOR_GER = {
 	color = rgb { 61 61 61 }
 	color_ui = rgb { 61 61 61 }
 }
+
+SOV_GER_moskowien = {
+	color = rgb { 61 61 61 }
+	color_ui = rgb { 61 61 61 }
+}
+
+
+GEO_GER_kaukasus = {
+	color = rgb { 61 61 61 }
+	color_ui = rgb { 61 61 61 }
+}
