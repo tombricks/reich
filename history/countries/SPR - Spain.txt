@@ -121,6 +121,9 @@ set_popularities = {
 	fascism = 45
 }
 
+create_faction = "Iberian Union"
+add_to_faction = POR
+puppet = MOR
 
 create_country_leader = {
 	name = "Niceto Alcalá-Zamora"
