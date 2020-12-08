@@ -1,0 +1,10 @@
+﻿l_english:
+ chinese_warlord_leader_tooltip:0 "[?chinese_warlord.GetNameWithFlag]\n\n--------\n\n[?chinese_warlord.GetLeader]"
+ 
+ chinese_warlord_influence_chi_strong:0 "§RStrong Soviet Lean§!"
+ chinese_warlord_influence_chi_moderate:0 "§OModerate Soviet Lean§!"
+ chinese_warlord_influence_chi_weak:0 "§gWeak Soviet Lean§!"
+ chinese_warlord_influence_prc_weak:0 "§gWeak Nationalist Lean§!"
+ chinese_warlord_influence_prc_moderate:0 "§CModerate Nationalist Lean§!"
+ chinese_warlord_influence_prc_strong:0 "§BStrong Nationalist Lean§!"
+ chinese_warlord_influence_text:0 "Influence: [?chinese_warlord.GetWarlordInfluenceSetUp]"

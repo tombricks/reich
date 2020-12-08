@@ -1,0 +1,33 @@
+defined_text = { # Country
+	name = GetWarlordLeader
+	text = { trigger = { has_country_leader = { name = "Ma Bufang" ruling_only = yes } } localization_key = "GFX_Portrait_Ma_Bufang" }
+	text = { trigger = { has_country_leader = { name = "Li Zongren" ruling_only = yes } } localization_key = "GFX_Portrait_Li_Zongren" }
+	text = { trigger = { has_country_leader = { name = "Yan Xishan" ruling_only = yes } } localization_key = "GFX_Portrait_Yan_Xishan" }
+	text = { trigger = { has_country_leader = { name = "Sheng Shicai" ruling_only = yes } } localization_key = "GFX_Portrait_Sheng_Shicai" }
+	text = { trigger = { has_country_leader = { name = "Long Yun" ruling_only = yes } } localization_key = "GFX_Portrait_Long_Yun" }
+	text = { localization_key = "GFX_leader_unknown" }
+}
+
+defined_text = {
+    name = GetWarlordInfluenceSetUp
+    
+    text = {
+        trigger = {
+            var:chinese_warlord = {
+                set_temp_variable = { chinese_warlord_influence_temp = chinese_warlord_influence  }
+            }
+            always = yes
+        }
+        localization_key = "[This.GetWarlordInfluence]"
+    }
+}
+
+defined_text = { # Country
+    name = GetWarlordInfluence
+    text = { trigger = { check_variable = { chinese_warlord_influence_temp > 40 } } localization_key = "chinese_warlord_influence_chi_strong" }
+    text = { trigger = { check_variable = { chinese_warlord_influence_temp > 20 } } localization_key = "chinese_warlord_influence_chi_moderate" }
+    text = { trigger = { check_variable = { chinese_warlord_influence_temp > 0 } } localization_key = "chinese_warlord_influence_chi_weak" }
+    text = { trigger = { check_variable = { chinese_warlord_influence_temp > -20 } } localization_key = "chinese_warlord_influence_prc_weak" }
+    text = { trigger = { check_variable = { chinese_warlord_influence_temp > -40 } } localization_key = "chinese_warlord_influence_prc_moderate" }
+    text = { localization_key = "chinese_warlord_influence_prc_strong" }
+}

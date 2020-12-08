@@ -12,6 +12,7 @@ state={
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
+		set_variable = { chinese_warlord = SIK }
 		buildings = {
 			infrastructure = 1
 

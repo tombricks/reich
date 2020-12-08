@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_icon_chi_nationalist_warlord"
+		texturefile = "gfx/interface/icon_chi_nationalist_warlord.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_chi_communist_warlord"
+		texturefile = "gfx/interface/icon_chi_communist_warlord.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Ma_Bufang"
+		texturefile = "gfx/leaders/XSM/Portrait_Ma_Bufang.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Li_Zongren"
+		texturefile = "gfx/leaders/GXC/Portrait_Li_Zongren.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Yan_Xishan"
+		texturefile = "gfx/leaders/SHX/Portrait_Yan_Xishan.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Sheng_Shicai"
+		texturefile = "gfx/leaders/SIK/Portrait_Sheng_Shicai.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Long_Yun"
+		texturefile = "gfx/leaders/YUN/Portrait_Long_Yun.tga"
+	}
+}

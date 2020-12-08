@@ -1,0 +1,76 @@
+scripted_gui = {
+	chinese_warlord_open_gui = {
+		context_type = selected_state_context
+		
+		window_name = "chinese_warlord_open_gui"
+		parent_window_token = selected_state_view
+
+		visible = {
+			has_variable = chinese_warlord
+			OR = {
+				is_owned_by = CHI
+				is_owned_by = PRC
+			}
+		}
+
+		effects = {
+			open_warlord_ui_button_click = {
+				ROOT = {
+					if = {
+						limit = {
+							has_country_flag = warlord_ui_open
+						}
+						clr_country_flag = warlord_ui_open
+					}
+					else = {
+						set_country_flag = warlord_ui_open
+					}
+				}
+			}
+		}
+	}
+	chinese_warlord_gui = {
+		context_type = selected_state_context
+		
+		window_name = "chinese_warlord_gui"
+
+		properties = {
+			warlord_leader = {
+				image = "[?chinese_warlord.GetWarlordLeader]"
+			}
+		}
+
+		visible = {
+			has_variable = chinese_warlord
+			ROOT = {
+				has_country_flag = warlord_ui_open
+			}
+		}
+
+		effects = {
+			open_warlord_ui_button_click = {
+				ROOT = {
+					if = {
+						limit = {
+							has_country_flag = warlord_ui_open
+						}
+						clr_country_flag = warlord_ui_open
+					}
+					else = {
+						set_country_flag = warlord_ui_open
+					}
+				}
+			}
+			add_communist_click = {
+				var:chinese_warlord = {
+					chinese_warlord_add_10_communist = yes
+				}
+			}
+			add_nationalist_click = {
+				var:chinese_warlord = {
+					chinese_warlord_add_10_nationalist = yes
+				}
+			}
+		}
+	}
+}

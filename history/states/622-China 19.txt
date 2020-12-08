@@ -10,6 +10,7 @@ state={
 		owner = PRC
 		add_core_of = PRC
 		add_core_of = CHI
+		set_variable = { chinese_warlord = SHX }
 		victory_points = {
 			8049 3 
 		}

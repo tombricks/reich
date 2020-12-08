@@ -1,0 +1,96 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "chinese_warlord_open_gui"
+		position = { x=0  y=0 }	
+		
+		buttonType ={
+			name ="open_warlord_ui_button"
+			spriteType = "GFX_icon_chi_nationalist_warlord"
+			position = { x= 320 y = 12 }
+			Orientation = "UPPER_LEFT"
+		}	
+	}
+
+	containerWindowType = {
+		name = "chinese_warlord_gui"
+		position = { x=420 y=-400}
+		size = { width=300 height=400 }
+		orientation = lower_left
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window"
+		}
+		
+		buttonType ={
+			name ="open_warlord_ui_button"
+			spriteType = "GFX_closebutton_small"
+			position = { x= 262 y = 8 }
+			Orientation = "UPPER_LEFT"
+		}	
+
+		instantTextboxType = {
+			name = "warlord_title"
+			position = { x = 20 y = 10 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0 }
+			text = "[?chinese_warlord.GetName]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}		
+
+		iconType = {
+			name = "warlord_leader"
+			position = { x = 18 y = 58 }
+			spriteType = "GFX_leader_unknown"
+			pdx_tooltip = "chinese_warlord_leader_tooltip"
+		}
+		
+		iconType = {
+			name = "warlord_leader_frame"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 10 y = 44 }		
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "add_communist"
+			spriteType = "GFX_closebutton_small"
+			position = { x = 130 y = 144 }	
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType = {
+			name = "add_nationalist"
+			spriteType = "GFX_closebutton_small"
+			position = { x = 150 y = 144 }	
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "warlord_leader_name"
+			position = { x = 18 y = 271 }
+			font = "hoi_18mbs"
+			text = "[?chinese_warlord.GetLeader]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextboxType = {
+			name = "warlord_influence"
+			position = { x = 20 y = 300 }
+			font = "hoi_18mbs"
+			text = "Influence: [?chinese_warlord.GetWarlordInfluenceSetUp]"
+			maxWidth = 2000
+			maxHeight = 20
+		}
+	}
+}
